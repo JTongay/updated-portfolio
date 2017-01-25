@@ -23,3 +23,18 @@ ul{
     padding: 26px;
   }
 }
+
+.intro {
+  background-color: $primaryColor;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.icons{
+  margin: 0 150px;
+  img{
+    max-width: 700px;
+    max-height: 700px;
+  }
+}

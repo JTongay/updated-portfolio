@@ -16,3 +16,15 @@ ul {
     display: inline;
     color: #29d3d3;
     padding: 26px; }
+
+.intro {
+  background-color: #29d3d3;
+  padding: 50px;
+  text-align: center;
+  color: #fff; }
+
+.icons {
+  margin: 0 150px; }
+  .icons img {
+    max-width: 700px;
+    max-height: 700px; }
