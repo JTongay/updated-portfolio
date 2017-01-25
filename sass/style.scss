@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 $primaryColor: #29d3d3;
 $secondaryColor: #adadad;
+
+body {
+  font-family: "Muli", sans-serif;
+}
 
 nav {
   margin: 25px 150px;
@@ -21,9 +27,13 @@ ul{
     display: inline;
     color: $secondaryColor;
     padding: 26px;
-    &:hover{
-      color: $primaryColor;
-      cursor: pointer;
+    a {
+      text-decoration: none;
+      color: $secondaryColor;
+      &:hover{
+        color: $primaryColor;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -44,5 +54,24 @@ ul{
   img{
     width: 900px;
     height: 700px;
+  }
+}
+
+.contact{
+  border-top: 2px solid $secondaryColor;
+  margin: 0 150px;
+  padding: 25px 0; 
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    .contact-icons{
+      padding: 0 40px;
+      color: $secondaryColor;
+      &:hover{
+        color: $primaryColor;
+        cursor: pointer;
+      }
+    }
   }
 }
