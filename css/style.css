@@ -14,8 +14,14 @@ ul {
   margin-top: 0; }
   ul li {
     display: inline;
-    color: #29d3d3;
+    color: #adadad;
     padding: 26px; }
+    ul li:hover {
+      color: #29d3d3;
+      cursor: pointer; }
+
+.active-link {
+  color: #29d3d3; }
 
 .intro {
   background-color: #29d3d3;
@@ -26,5 +32,5 @@ ul {
 .icons {
   margin: 0 150px; }
   .icons img {
-    max-width: 700px;
-    max-height: 700px; }
+    width: 900px;
+    height: 700px; }
