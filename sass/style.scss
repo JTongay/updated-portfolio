@@ -43,6 +43,7 @@ ul{
 }
 
 .intro {
+  // display: none;
   background-color: $primaryColor;
   padding: 50px;
   text-align: center;
@@ -50,17 +51,72 @@ ul{
 }
 
 .icons{
+  // display: none;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
   margin: 0 150px;
-  img{
-    width: 900px;
-    height: 700px;
+  figure{
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    -moz-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    &:hover {
+      background: $primaryColor;
+    }
+    img{
+      opacity: .75;
+      width: 520px;
+      height: 360px;
+      // &:hover {
+      //   cursor: pointer;
+      //   opacity: 1;
+      // }
+    }
   }
 }
 
+// different pages
+.pokestay {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: $secondaryColor;
+  .pokestay-img{
+    max-width: 800px;
+  }
+}
+
+.digidex {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: $secondaryColor;
+}
+
+.raspi {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: $secondaryColor;
+}
+
+.power-rank {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: $secondaryColor;
+}
+
+
+// footer
 .contact{
   border-top: 2px solid $secondaryColor;
   margin: 0 150px;
-  padding: 25px 0; 
+  padding: 25px;
   .contact-container{
     display: flex;
     justify-content: center;

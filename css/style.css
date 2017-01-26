@@ -37,15 +37,55 @@ ul {
   color: #fff; }
 
 .icons {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
   margin: 0 150px; }
-  .icons img {
-    width: 900px;
-    height: 700px; }
+  .icons figure {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px; }
+    .icons figure:hover {
+      background: #29d3d3; }
+    .icons figure img {
+      opacity: .75;
+      width: 520px;
+      height: 360px; }
+
+.pokestay {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: #adadad; }
+  .pokestay .pokestay-img {
+    max-width: 800px; }
+
+.digidex {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: #adadad; }
+
+.raspi {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: #adadad; }
+
+.power-rank {
+  display: none;
+  margin: 0 150px;
+  text-align: center;
+  color: #adadad; }
 
 .contact {
   border-top: 2px solid #adadad;
   margin: 0 150px;
-  padding: 25px 0; }
+  padding: 25px; }
   .contact .contact-container {
     display: flex;
     justify-content: center;
