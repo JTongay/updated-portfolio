@@ -38,13 +38,14 @@ ul {
 
 .icons {
   display: flex;
-  flex-flow: row-wrap;
-  justify-content: space-between;
-  margin: 0 150px; }
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 150px;
+  text-align: center;
+  align-content: flex-start; }
   .icons figure {
-    position: relative;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    flex: 1;
+    flex-grow: 2;
     cursor: pointer;
     -webkit-box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
     -moz-box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
@@ -53,8 +54,16 @@ ul {
       background: #29d3d3; }
     .icons figure img {
       opacity: .75;
-      width: 520px;
-      height: 360px; }
+      margin: 0 auto;
+      width: 100%;
+      max-width: 580px;
+      min-width: 340px;
+      height: 200px; }
+    .icons figure #raspi-img {
+      width: 100%;
+      margin: auto;
+      max-width: 300px;
+      min-width: 270px; }
 
 .pokestay {
   display: none;

@@ -4,6 +4,7 @@ const links = doc.querySelectorAll('.links'),
 pokeStayImg = doc.getElementById('pokestay-img'),
 digiDexImg = doc.getElementById('digidex-img'),
 raspiImg = doc.getElementById('raspi-img'),
+powerImg = doc.getElementById('power-img'),
 introSection = doc.getElementById('intro-section'),
 iconsSection = doc.getElementById('icons-section'),
 pokeSection = doc.getElementById('poke-section'),
@@ -38,6 +39,12 @@ digiDexImg.addEventListener('click', function(){
   introSection.style.display = 'none';
   iconsSection.style.display = 'none';
   digiDexSection.style.display = 'block';
+})
+
+powerImg.addEventListener('click', function(){
+  introSection.style.display = 'none';
+  iconsSection.style.display = 'none';
+  powerSection.style.display = 'block';
 })
 
 
