@@ -35,14 +35,15 @@ ul {
   padding: 50px;
   text-align: center;
   color: #fff; }
+  .intro .about-me {
+    margin: 0 150px; }
 
 .icons {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 150px;
   text-align: center;
-  align-content: flex-start; }
+  margin: 0 150px; }
   .icons figure {
     flex: 1;
     flex-grow: 2;
