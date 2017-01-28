@@ -234,6 +234,53 @@ ul {
         }
     }
 
+    .pokestay {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .pokestay-img {
+            max-width: 400px;
+        }
+    }
+
+    .digidex {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .digidex-img {
+            max-width: 400px;
+        }
+    }
+
+    .raspi {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+        .raspi-img {
+          max-width: 320px;
+        }
+    }
+
+    .power-rank {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .power-img {
+            max-width: 400px;
+        }
+    }
+
+    .live-link {
+      font-size: 1rem;
+    }
+
     .contact {
         border-top: 2px solid $secondaryColor;
         margin: 0 10px;
@@ -296,6 +343,53 @@ ul {
         .about-me {
             margin: 0 10px;
         }
+    }
+
+    .pokestay {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .pokestay-img {
+            max-width: 300px;
+        }
+    }
+
+    .digidex {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .digidex-img {
+            max-width: 400px;
+        }
+    }
+
+    .raspi {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+        .raspi-img {
+          max-width: 320px;
+        }
+    }
+
+    .power-rank {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .power-img {
+            max-width: 400px;
+        }
+    }
+
+    .live-link {
+      font-size: 1rem;
     }
 
     .contact {
@@ -392,6 +486,54 @@ ul {
             }
         }
     }
+
+    .pokestay {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .pokestay-img {
+            max-width: 290px;
+        }
+    }
+
+    .digidex {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .digidex-img {
+            max-width: 290px;
+        }
+    }
+
+    .raspi {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+        .raspi-img {
+          max-width: 270px;
+        }
+    }
+
+    .power-rank {
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+        color: $secondaryColor;
+
+        .power-img {
+            max-width: 290px;
+        }
+    }
+
+    .live-link {
+      font-size: 1rem;
+    }
+
 
     .contact {
         border-top: 2px solid $secondaryColor;
@@ -537,6 +679,53 @@ and (orientation:portrait) {
       .about-me {
           margin: 0 10px;
       }
+  }
+
+  .pokestay {
+      display: none;
+      margin: 0 10px;
+      text-align: center;
+      color: $secondaryColor;
+
+      .pokestay-img {
+          max-width: 400px;
+      }
+  }
+
+  .digidex {
+      display: none;
+      margin: 0 10px;
+      text-align: center;
+      color: $secondaryColor;
+
+      .digidex-img {
+          max-width: 400px;
+      }
+  }
+
+  .raspi {
+      display: none;
+      margin: 0 10px;
+      text-align: center;
+      color: $secondaryColor;
+      .raspi-img {
+        max-width: 320px;
+      }
+  }
+
+  .power-rank {
+      display: none;
+      margin: 0 10px;
+      text-align: center;
+      color: $secondaryColor;
+
+      .power-img {
+          max-width: 400px;
+      }
+  }
+
+  .live-link {
+    font-size: 1rem;
   }
 
   .contact {

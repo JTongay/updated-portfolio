@@ -159,6 +159,36 @@ ul {
     color: #fff; }
     .intro .about-me {
       margin: 0 10px; }
+  .pokestay {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .pokestay .pokestay-img {
+      max-width: 400px; }
+  .digidex {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .digidex .digidex-img {
+      max-width: 400px; }
+  .raspi {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .raspi .raspi-img {
+      max-width: 320px; }
+  .power-rank {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .power-rank .power-img {
+      max-width: 400px; }
+  .live-link {
+    font-size: 1rem; }
   .contact {
     border-top: 2px solid #adadad;
     margin: 0 10px;
@@ -201,6 +231,36 @@ ul {
     color: #fff; }
     .intro .about-me {
       margin: 0 10px; }
+  .pokestay {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .pokestay .pokestay-img {
+      max-width: 300px; }
+  .digidex {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .digidex .digidex-img {
+      max-width: 400px; }
+  .raspi {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .raspi .raspi-img {
+      max-width: 320px; }
+  .power-rank {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .power-rank .power-img {
+      max-width: 400px; }
+  .live-link {
+    font-size: 1rem; }
   .contact {
     border-top: 2px solid #adadad;
     margin: 0 10px;
@@ -262,6 +322,36 @@ ul {
         width: 100%;
         max-width: 300px;
         min-width: 270px; }
+  .pokestay {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .pokestay .pokestay-img {
+      max-width: 290px; }
+  .digidex {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .digidex .digidex-img {
+      max-width: 290px; }
+  .raspi {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .raspi .raspi-img {
+      max-width: 270px; }
+  .power-rank {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .power-rank .power-img {
+      max-width: 290px; }
+  .live-link {
+    font-size: 1rem; }
   .contact {
     border-top: 2px solid #adadad;
     margin: 0 10px;
@@ -344,6 +434,36 @@ ul {
     color: #fff; }
     .intro .about-me {
       margin: 0 10px; }
+  .pokestay {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .pokestay .pokestay-img {
+      max-width: 400px; }
+  .digidex {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .digidex .digidex-img {
+      max-width: 400px; }
+  .raspi {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .raspi .raspi-img {
+      max-width: 320px; }
+  .power-rank {
+    display: none;
+    margin: 0 10px;
+    text-align: center;
+    color: #adadad; }
+    .power-rank .power-img {
+      max-width: 400px; }
+  .live-link {
+    font-size: 1rem; }
   .contact {
     border-top: 2px solid #adadad;
     margin: 0 10px;
