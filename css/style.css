@@ -130,3 +130,45 @@ ul {
       .contact .contact-container .contact-icons:hover {
         color: #29d3d3;
         cursor: pointer; }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  nav {
+    margin: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center; }
+    nav .jt-logo {
+      max-height: 60px;
+      max-width: 60px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 9px; }
+    nav ul li {
+      display: inline;
+      color: #adadad;
+      padding: 10px; }
+      nav ul li a {
+        text-decoration: none;
+        color: #adadad; }
+        nav ul li a:hover {
+          color: #29d3d3;
+          cursor: pointer; }
+  .intro {
+    background-color: #29d3d3;
+    padding: 35px;
+    color: #fff; }
+    .intro .about-me {
+      margin: 0 10px; }
+  .contact {
+    border-top: 2px solid #adadad;
+    margin: 0 10px;
+    padding: 25px; }
+    .contact .contact-container {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap; }
+      .contact .contact-container .contact-icons {
+        padding: 0 25px;
+        font-size: 30px;
+        color: #adadad; } }
