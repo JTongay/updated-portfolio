@@ -78,7 +78,7 @@ ul{
       width: 100%;
       max-width: 580px;
       min-width: 340px;
-      height: 200px;
+      height: 220px;
     }
     #raspi-img{
       width: 100%;
@@ -105,6 +105,9 @@ ul{
   margin: 0 150px;
   text-align: center;
   color: $secondaryColor;
+  .digidex-img{
+    max-width: 800px;
+  }
 }
 
 .raspi {
@@ -119,6 +122,35 @@ ul{
   margin: 0 150px;
   text-align: center;
   color: $secondaryColor;
+  .power-img{
+    max-width: 800px;
+  }
+}
+
+.presentation{
+  text-decoration: none;
+  color: $primaryColor;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.skills-used {
+  color: $primaryColor;
+}
+
+.live-link {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 40px;
+  a {
+    color: $primaryColor;
+    text-decoration: none;
+    padding: 0 20px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 

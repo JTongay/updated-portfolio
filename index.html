@@ -17,9 +17,9 @@
             <img src="images/JT-logo-2x.png" alt="" class="jt-logo">
             <ul>
                 <li class="links active-link"><a href="">Portfolio</a></li>
-                <li class="links"><a href="">Resume</a></li>
+                <li class="links"><a href="images/Joseph_Tongay_Resume.pdf" target="_blank">Resume</a></li>
                 <li class="links"><a href="http://jtongay-challenge.ghost.io/" target="_blank">Blog</a></li>
-                <li class="links"><a href="" target="_blank">Contact</a></li>
+                <li class="links"><a href="mailto:joseph.tongay@gmail.com">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +27,7 @@
         <div class="about-me">
             <h1>Hello! I'm Joseph Tongay!</h1>
             <h2>I am a Software Engineer with a curious mind and a will to embrace any new technology to solve any problem.</h2>
-            <p>I am proficient in a lot of fucking skills</p>
+            <p>I create mobile-responsive, test-driven applications in Node, Express, Angular, and postgreSQL. My education in the Galvanize Web Development Immersive program has prepared me to take on new challenges head first and taught me how to learn. I started a blog following my adventures in a year long coding challenge where I code for at least one hour a day, every day, for a year. Below is a collection of a few projects I have done.</p>
         </div>
     </section>
     <section class="icons" id="icons-section">
@@ -46,22 +46,47 @@
     </section>
     <section class="pokestay" id="poke-section">
         <h1>Pokemon Stay!</h1>
-        <p>This was my very first project in my attendance at Galvanize. Just one month into the program, I was proficient in creating a static application using AJAX to make external API calls while utilizing bootstrap to create a responsive layout and
-            the HTML5 canvas tag to create animations.</p>
+        <p>This was my very first project in my attendance at Galvanize. Just one month into the program, I was proficient in creating a static application using AJAX to make external API calls while utilizing bootstrap to create a responsive layout and the HTML5 canvas tag to create animations.</p>
+        <p>Pokemon Stay! is an interactive pokedex where you can browse each generation's pokemon and click on their icon to see more information about the selected pokemon including a YouTube video that is relevant. Also, if you choose the explore, you can control a character using your keyboard to "catch" a randomly generated pokemon, click on its pokeball below and see that pokemon's information that way as well.</p>
+        <p class="skills-used">Skills used - HTML5, CSS, Bootstrap, jQuery, Paper.js</p>
         <img src="images/pokestay1.png" alt="" class="pokestay-img">
-        <div class="">
-            <a href="https://jtongay.github.io/q1-pokemon-stay/" target="_blank">Live Link</a>
+        <div class="live-link">
+          <a href="https://jtongay.github.io/q1-pokemon-stay/" target="_blank">Live Link</a>
+          <a href="https://github.com/jtongay/q1-pokemon-stay/" target="_blank">Github</a>
         </div>
     </section>
     <section class="raspi" id="raspi-section">
         <h1>Raspberry Pi Smart TV</h1>
-        <p>something</p>
+        <p>This is probably the most fun that I have had on any project. As a class, we had all just learned Angular, and we were instructed to use that knowledge and create something crazy while not being afraid of failing. With this in mind, a classmate and I decided we wanted to work with a Raspberry Pi and felt that using one to create a smart TV would be a fun and challenging project. My responsibility was to create the entire front-end using Ionic to make it a hybrid application. Unfortunately, I do not have it deployed to any app store because it costs a little bit more money than I would like to spend on a project.</p>
+        <p>Rather than stating what it does, which should be pretty obvious, I will state how it works. With a Raspberry Pi, you must have git,the repository, node, omxplayer, and chromium installed. After running 'npm install', run 'npm start' to spin up the server, listening for any socket.io messages from the app. In the app side, you input your current IP address, search and pick a YouTube video, the Raspberry Pi will pick up the YouTube address, download it, and play it onto the screen where the Raspberry Pi is connected.</p>
+        <p class="skills-used">Skills used - Node, Express, Socket.io, Ionic, Raspberry Pi</p>
+        <img src="images/raspi-combined.png" alt="" class="raspi-img">
+        <div class="live-link">
+          <a href="https://github.com/JTongay/q3-smart-tv" target="_blank">Github</a>
+        </div>
     </section>
     <section class="digidex" id="digidex-section">
         <h1>Digital Rolodex</h1>
+        <p>This project was a first for a few things. It was my first group project (group of 5), first full-stack project, first time presenting to large room, and full application written in TDD style. My responsibility was constructing the ERD, set up the database migrations and seeds, and incorporate the tags feature.</p>
+        <p>This concept was created by one of my classmates, where if a person has a collection of business cards and loses them or wants to have access to them anywhere, they can create a digital rolodex (just like the title says). A user can either add a contact via a form, or take a picture of a business card and will auto-fill the form with the details it has. After a contact is created, the user will be prompted to select from a few descriptive tags where they can drag and drop all relevant tags on the newly added contact. Once that is completed, the user will be redirected back to their homepage where they can filter all contacts by name or tag.</p>
+        <p class="skills-used">Skills used - Node, Express, EJS, Semantic UI, jQuery, Mocha, Chai, Supertest, Heroku</p>
+        <img src="images/digidex3.png" alt="" class="digidex-img">
+        <div class="live-link">
+          <a href="http://digital-rolodex.herokuapp.com/login" target="_blank">Live Link</a>
+          <a href="https://github.com/midastouchprd/digital-rolodex">Github</a>
+        </div>
     </section>
     <section class="power-rank" id="power-section">
         <h1>Power Ranking</h1>
+        <p>This was my Galvanize Capstone Project. During this two-week process, I separated out the front and back-end repositories to emulate a production application as best as I could, while preparing a <a href="http://prezi.com/x7ncy260uzyx/?utm_campaign=share&utm_medium=copy" target="_blank" class="presentation">presentation</a> for large audience. I also took it upon myself to learn a brand new technology in Angular 2, and incorporate it as the front-end to my application.</p>
+        <p>Power Ranking as a concept already exists in the sports world, where a bunch of a sports writers get together and come up with a ranked list of teams. I took this concept years ago and started power ranking any and all topics (like cereal, candy bars, comedy movies, etc.), causing lengthy conversations with friends and coworkers. This application follows that formula where a user can vote on topics, create new topics and items, and affect the global ranking that is displayed in a pie chart. The kicker of this application, is that you can vote via Twitter, by following a certain set of tweet rules. The tweet is put through sentiment analysis and will generate a score based on what was said, and update the global ranking. </p>
+        <p class="skills-used">Skills used - Node, Express, Angular 2, PostgreSQL, Heroku, AWS, Bootstrap, CSS, Mocha, Chai, Supertest</p>
+        <img src="images/power-rank.png" alt="" class="power-img">
+        <div class="live-link">
+          <a href="http://power-rank.com.s3-website-us-west-2.amazonaws.com/" target="_blank">Live Link</a>
+          <a href="https://github.com/JTongay/capstone-frontend" target="_blank">Github(front-end)</a>
+          <a href="https://github.com/JTongay/capstone-backend">Github(back-end)</a>
+        </div>
     </section>
     <footer class="contact">
         <div class="contact-container">

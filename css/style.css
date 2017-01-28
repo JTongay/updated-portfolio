@@ -59,7 +59,7 @@ ul {
       width: 100%;
       max-width: 580px;
       min-width: 340px;
-      height: 200px; }
+      height: 220px; }
     .icons figure #raspi-img {
       width: 100%;
       margin: auto;
@@ -79,6 +79,8 @@ ul {
   margin: 0 150px;
   text-align: center;
   color: #adadad; }
+  .digidex .digidex-img {
+    max-width: 800px; }
 
 .raspi {
   display: none;
@@ -91,6 +93,28 @@ ul {
   margin: 0 150px;
   text-align: center;
   color: #adadad; }
+  .power-rank .power-img {
+    max-width: 800px; }
+
+.presentation {
+  text-decoration: none;
+  color: #29d3d3; }
+  .presentation:hover {
+    text-decoration: underline; }
+
+.skills-used {
+  color: #29d3d3; }
+
+.live-link {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 40px; }
+  .live-link a {
+    color: #29d3d3;
+    text-decoration: none;
+    padding: 0 20px; }
+    .live-link a:hover {
+      text-decoration: underline; }
 
 .contact {
   border-top: 2px solid #adadad;
