@@ -159,6 +159,10 @@ ul {
     color: #fff; }
     .intro .about-me {
       margin: 0 10px; }
+  .icons figure {
+    opacity: 999; }
+    .icons figure img {
+      opacity: 999; }
   .pokestay {
     display: none;
     margin: 0 10px;
@@ -231,6 +235,8 @@ ul {
     color: #fff; }
     .intro .about-me {
       margin: 0 10px; }
+  .icons figure img {
+    opacity: 1; }
   .pokestay {
     display: none;
     margin: 0 10px;

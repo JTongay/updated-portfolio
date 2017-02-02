@@ -234,6 +234,15 @@ ul {
         }
     }
 
+    .icons {
+      figure {
+        opacity: 999;
+        img {
+          opacity: 999;
+        }
+      }
+    }
+
     .pokestay {
         display: none;
         margin: 0 10px;
@@ -343,6 +352,14 @@ ul {
         .about-me {
             margin: 0 10px;
         }
+    }
+
+    .icons {
+      figure {
+        img {
+          opacity: 1;
+        }
+      }
     }
 
     .pokestay {
